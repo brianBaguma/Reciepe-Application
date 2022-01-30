@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<meta charset="UTF -8">
+  	
+  	<title>Say Hello</title>
+  	<link rel="stylesheet" href="{{
+  		url_for('static',filename='css/main.css')}}">
+  </head>
+  <body>
+  	
+  	<br>
+  	<form action="greet" method="post">
+      <h3 style="color: lightskyblue;" align ="form-control">Welcome To My Food Receipe Web Application</h3>
+  		
+       <p><h3>Login Details </h3> </p>
+     
+        
+  		 
+     <div class="form-group">
+       <p><h3>  Enter your Name </h3> </p>
+     
+       <h3>
+         <input
+          type="name"
+          class="form-control"
+          id="name"
+          name="name"
+          placeholder="Enter your name"
+        />
+       </h3> 
+       <h3>
+        
+       <label for="email">Email Address</label>
+        <input
+          type="email"
+          class="form-control"
+          id="email"
+          name="email"
+          placeholder="Enter email"
+        />
+      </h3>
+      <button type="submit" class="btn btn-primary" > <a href="second.html"> click to Log in</a></button>
+  </form>
+  <br>
+  <br>
+  <h3> Sign Up</h3>
+   <form method="POST">
+     <h3 align="form-control">  
+<div class="form-group">
+        <label for="email">Email Address</label>
+        <br>
+        <input
+          type="email"
+          class="form-control"
+          id="email"
+          name="email"
+          placeholder="Enter email"
+        />
+      </div>
+  
+      <h3>
+      <label for="firstName">First Name</label>
+        <input
+          type="text"
+          class="form-control"
+          id="firstName"
+          name="firstName"
+          placeholder="Enter first name"
+        />
+      </h3>
+      <div class="form-group">
+
+      <h3>
+         <div class="form-group">
+        <label for="password1">Password</label>
+        <input
+          type="password"
+          class="form-control"
+          id="password1"
+          name="password1"
+          placeholder="Enter password"
+        />
+      </h3>
+      </div>
+  
+
+     </h3>
+     <h3 >
+      <div class="form-group">
+        <label for="password2">Password (Confirm)</label>
+        <input
+          type="password"
+          class="form-control"
+          id="password2"
+          name="password2"
+          placeholder="Confirm password"
+        />
+      </div>
+      <br />
+      <button type="submit" class="btn btn-primary">Submit</button>
+      </h3>
+    </form>
+  
+  
+ <br>
+
+
+  	</form>
+  </body>
+ </html>
