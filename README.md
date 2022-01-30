@@ -1,3 +1,3 @@
 # Reciepe-Application
-To keep track of awesome reciepes and share them with others
-in this application  am going to write code that can keep track of awesome receipes such as Spaghetti Bolognese, a Croissant, milkshake and other local foods here in my country Uganda
+in this application you will be able to add different recipes and delete the recipes and update them incase you want to add any changes 
+
